@@ -1,11 +1,11 @@
-# Python program to print Even Numbers in given range
+import time
+import os
 
-# start, end = 1, 100
 
-# iterating each number in list
 def print_range(start, end):
+    print(os.environ['table_name'])
     for num in range(start, end + 1):
-
+        # time.sleep(10)
         # checking condition
         if num % 2 == 0:
             print(num, end=" ")
